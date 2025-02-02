@@ -1,0 +1,3 @@
+# Improper Exception Handling in Asynchronous Dart Code
+
+This repository demonstrates a common error in Dart asynchronous programming: inadequate exception handling when working with external data sources.  The `bug.dart` file showcases code that fails to comprehensively catch and handle potential exceptions, particularly `FormatException` from `jsonDecode`. The solution, found in `bugSolution.dart`, implements robust exception handling, including logging for debugging and providing more informative error messages.
